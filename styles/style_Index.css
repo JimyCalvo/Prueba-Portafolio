@@ -1,0 +1,38 @@
+   body {
+    background: #dcdcde;
+   }
+   .header {
+        position: relative;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        text-align: center;
+        background: #EEEE;
+        background-image:url(/img/img_fondo01.jpg) ;
+        height: 150px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .img{
+    object-fit: contain;
+    overflow: hidden;
+    }
+    .enca1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 3px;
+    } 
+    .enca1 img{
+        max-height: 100px;
+    }
+
+    .enca2{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .enca2 h4{
+        text-align: right;
+    }
+    .enca3 img{
+        max-height: 200px;
+    }
