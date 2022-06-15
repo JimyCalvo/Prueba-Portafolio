@@ -1,14 +1,18 @@
    body {
-    background: #dcdcde;
+    background: #ffff;
+    margin: 0;
    }
    .header {
+        font-family: Verdana;
         position: relative;
-        padding-top: 30px;
-        padding-bottom: 20px;
+        padding-top: 20px;
+        padding-bottom: 5px;
         text-align: center;
         background: #EEEE;
-        background-image:url(/img/img_fondo01.jpg) ;
-        height: 150px;
+        background-image:url(/img/Background.svg);
+        background-position: center;
+        background-size: cover;
+        max-height: 150px;
         display:flex;
         justify-content: space-between;
         align-items: center;
@@ -18,21 +22,27 @@
     overflow: hidden;
     }
     .enca1 {
+    padding-left: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
-    line-height: 3px;
+    line-height: 1px;
     } 
     .enca1 img{
+        height: fit-content;
+        width: auto;
         max-height: 100px;
+    }
+    .enca6 h6{
+        margin:auto;
     }
 
     .enca2{
         padding-left: 80px;
         padding-right: 80px;
     }
-    .enca2 h4{
+    .enca2 h5{
         text-align: right;
     }
     .enca3 img{
-        max-height: 200px;
+        max-height: 150px;
     }
