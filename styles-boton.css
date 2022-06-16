@@ -84,7 +84,7 @@ ul{
     align-items:center;
     padding: 0px 10px;
     gap: 40px;
-    height: 25px;
+    height: 23px;
     background: #262D33;
     position:relative;
     justify-content: space-evenly;
@@ -97,13 +97,28 @@ ul{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 6px 10px;
+    padding: 8px 10px;
     gap: 20px;
     height: 30px;
     width: 200px;
     background: #0C0909;
     border-radius: 10px 10px 0px 0px;
     font-size: 18px;
+
+}
+
+.menu-bt:hover{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10px;
+    gap: 20px;
+    width: 210px;
+    height: 40px;
+    background: #181818;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: inset 0px 8px 2px 2px #DD6729;
 
 }
 
@@ -115,16 +130,18 @@ ul{
 }
 .menu li>a{
     color: white;
-    padding-inline: 20px;
+    padding-inline: 18px;
     display: block;
     text-decoration: none;
-    min-width: 100px;
+    /* min-width: 100px; */
    
 }
+
 .menu li>a>img{
-    padding-right:30px ;
+    padding-right:20px ;
     height: fit-content;
     width: auto;
+    justify-content: center;
 }
 
 
