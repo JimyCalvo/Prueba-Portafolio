@@ -1,0 +1,130 @@
+
+body {
+    background: rgb(41, 39, 39);
+    font-family: Verdana;
+    margin: 0;
+}
+img{
+    object-fit: contain;
+    overflow: hidden;
+
+}
+.portada {
+    text-align: center;
+    background: rgba(175, 50, 50, 0.933);
+    background-image:url(/img/Background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    max-height: 160px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+}
+
+.enca1 {
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 1px;
+    background-color: transparent;
+} 
+.enca1 img{
+    height: fit-content;
+    width: auto;
+    max-height: 100px;
+    background-color: transparent;
+}
+.text-logo{
+    margin: 0%;
+
+}
+
+.enca2{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.enca2 h6{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.enca2 h5{
+    text-align: right;
+}
+.enca3 img{
+    max-height: 150px;
+}
+
+
+
+
+
+/*MENU*/
+
+
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-style: normal;
+}
+ul{
+    list-style: none;
+}
+
+
+.menu{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    padding: 0px 10px;
+    gap: 40px;
+    height: 25px;
+    background: #262D33;
+    position:relative;
+    justify-content: space-evenly;
+
+}
+
+.menu-bt{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px;
+    gap: 20px;
+    height: 30px;
+    width: 200px;
+    background: #0C0909;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 18px;
+
+}
+
+.menu>li{
+    float: left;
+    text-align:justify; 
+    order: 0;
+    /* position:absolute; */
+}
+.menu li>a{
+    color: white;
+    padding-inline: 20px;
+    display: block;
+    text-decoration: none;
+    min-width: 100px;
+   
+}
+.menu li>a>img{
+    padding-right:30px ;
+    height: fit-content;
+    width: auto;
+}
+
+
