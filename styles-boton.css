@@ -11,7 +11,7 @@ img{
 }
 .portada {
     text-align: center;
-    background: rgba(175, 50, 50, 0.933);
+    background: rgba(117, 156, 189, 0.603);
     background-image:url(/img/Background.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,7 +19,7 @@ img{
 .header {
     position: relative;
     padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     text-align: center;
     max-height: 160px;
     display:flex;
