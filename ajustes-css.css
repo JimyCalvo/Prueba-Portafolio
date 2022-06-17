@@ -26,8 +26,62 @@ hr {
     background-color: #232327;
     display: flex;
     text-decoration: none;
+    justify-content:space-around;
+    justify-items: flex-end;
+    padding:0px 30px 0px 30px;
+    margin:0px;   
+    height: 23px; 
+    align-items: end;
+
+    /* display:flex;
+    flex-direction:row;
+    align-items:center;
+    padding: 0px 10px;
+    gap: 40px;
+    height: 23px;
+    background: #262D33;
+    position:relative;
+    justify-content: space-evenly; */
+
+}
+.menu-bt a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu-bt a>img{
+    margin-right: 20px;
+    align-items: end;
+}
+
+.menu-bt{
+    
+    display: flex;
+    flex-direction: row;
     justify-content: center;
-    padding-bottom: 0%;
-    margin:0px;    
+    align-items: center;
+    padding: 8px 10px;
+    gap: 20px;
+    height: 25px;
+    min-width: 200px;
+    background: #0C0909;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 18px;
+
+}
+
+.menu-bt:hover{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10px;
+    gap: 20px;
+    min-width: 205px;
+    height: 30px;
+    background: #181818;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: inset 0px 3px 2px 2px #DD6729;
 
 }
