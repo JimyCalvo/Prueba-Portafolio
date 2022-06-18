@@ -73,6 +73,8 @@ img{
     margin: 0px;
     padding: 20px 0px 0px 0px;
 }
+
+/* -----MENU---- */
 .menu-panel{
     background-color: #232327;
     display: flex;
@@ -137,7 +139,7 @@ img{
 .menu2>li{
   background-color: #262D33;
   color: white;
-  padding: 5px;
+  padding: 15px;
   display: block;
   text-decoration: none;
   justify-content: center;
@@ -147,9 +149,10 @@ img{
 .boton2menu:hover{
   background-color: #44535f;
   color: white;
-  padding: 5px;
+  padding: 15px;
   display: block;
   text-decoration: none;
   justify-content: center;
   align-items: center;
 }
+/* ------------------------------- */
