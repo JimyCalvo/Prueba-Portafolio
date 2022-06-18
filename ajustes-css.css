@@ -16,6 +16,57 @@ hr {
     box-shadow: 3px 3px 3px 3px #e687509d ;
 }
 
+img{
+    object-fit: contain;
+    overflow: hidden;
+
+}
+
+.header {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    max-height: 160px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+}
+
+.enca1 {
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 1px;
+    background-color: transparent;
+} 
+.enca1 img{
+    height: fit-content;
+    width: auto;
+    max-height: 100px;
+    background-color: transparent;
+}
+.text-logo{
+    margin: 0%;
+
+}
+
+.enca2{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.enca2 h6{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.enca2 h5{
+    text-align: right;
+}
+.enca3 img{
+    max-height: 150px;
+}
+
 #portada{
     background: #5e6481 url(/img/portada.svg) no-repeat;
     background-size: cover;
@@ -33,15 +84,6 @@ hr {
     height: 23px; 
     align-items: end;
 
-    /* display:flex;
-    flex-direction:row;
-    align-items:center;
-    padding: 0px 10px;
-    gap: 40px;
-    height: 23px;
-    background: #262D33;
-    position:relative;
-    justify-content: space-evenly; */
 
 }
 .menu-bt a{
@@ -57,7 +99,7 @@ hr {
 
 .menu-bt{
     
-    display: flex;
+    display: block;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -70,9 +112,12 @@ hr {
     font-size: 18px;
 
 }
+.menu-bt>ul{
+  display: none;
+}
 
 .menu-bt:hover{
-    display: flex;
+    display: block;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -84,4 +129,27 @@ hr {
     border-radius: 10px 10px 0px 0px;
     box-shadow: inset 0px 3px 2px 2px #DD6729;
 
+}
+
+.menu-bt:hover>ul{
+    display: block;
+  }
+.menu2>li{
+  background-color: #262D33;
+  color: white;
+  padding: 5px;
+  display: block;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.boton2menu:hover{
+  background-color: #44535f;
+  color: white;
+  padding: 5px;
+  display: block;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
 }
